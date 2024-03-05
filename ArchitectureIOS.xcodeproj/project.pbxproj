@@ -9,21 +9,40 @@
 /* Begin PBXBuildFile section */
 		F7CC7B372B977F84004186F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC7B362B977F84004186F1 /* AppDelegate.swift */; };
 		F7CC7B392B977F84004186F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC7B382B977F84004186F1 /* SceneDelegate.swift */; };
-		F7CC7B3B2B977F84004186F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC7B3A2B977F84004186F1 /* ViewController.swift */; };
+		F7CC7B3B2B977F84004186F1 /* CharactersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC7B3A2B977F84004186F1 /* CharactersListViewController.swift */; };
 		F7CC7B3E2B977F84004186F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CC7B3C2B977F84004186F1 /* Main.storyboard */; };
 		F7CC7B402B977F86004186F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CC7B3F2B977F86004186F1 /* Assets.xcassets */; };
 		F7CC7B432B977F86004186F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CC7B412B977F86004186F1 /* LaunchScreen.storyboard */; };
+		F7CC7B4E2B9780C3004186F1 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC7B4D2B9780C3004186F1 /* APIClient.swift */; };
+		F7CC7B502B978171004186F1 /* CharacterModelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC7B4F2B978171004186F1 /* CharacterModelResponse.swift */; };
+		F7CC7B522B97818B004186F1 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC7B512B97818B004186F1 /* CharacterModel.swift */; };
+		F7CC7B542B9782CA004186F1 /* CharactersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC7B532B9782CA004186F1 /* CharactersListView.swift */; };
+		F7CC7B562B9785CD004186F1 /* CharacterListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC7B552B9785CD004186F1 /* CharacterListCellView.swift */; };
+		F7CC7B582B978CCA004186F1 /* ListOfCharactersTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC7B572B978CCA004186F1 /* ListOfCharactersTableViewDataSource.swift */; };
+		F7CC7B5B2B979083004186F1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F7CC7B5A2B979083004186F1 /* Kingfisher */; };
+		F7CC7B5D2B979121004186F1 /* ListOfCharactersTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC7B5C2B979121004186F1 /* ListOfCharactersTableViewDelegate.swift */; };
+		F7CC7B642B979210004186F1 /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC7B632B979210004186F1 /* CharacterDetailView.swift */; };
+		F7CC7B662B9792F0004186F1 /* CharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC7B652B9792F0004186F1 /* CharacterDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F7CC7B332B977F84004186F1 /* ArchitectureIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchitectureIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CC7B362B977F84004186F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7CC7B382B977F84004186F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F7CC7B3A2B977F84004186F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7CC7B3A2B977F84004186F1 /* CharactersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListViewController.swift; sourceTree = "<group>"; };
 		F7CC7B3D2B977F84004186F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7CC7B3F2B977F86004186F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7CC7B422B977F86004186F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7CC7B442B977F86004186F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7CC7B4D2B9780C3004186F1 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		F7CC7B4F2B978171004186F1 /* CharacterModelResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModelResponse.swift; sourceTree = "<group>"; };
+		F7CC7B512B97818B004186F1 /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		F7CC7B532B9782CA004186F1 /* CharactersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListView.swift; sourceTree = "<group>"; };
+		F7CC7B552B9785CD004186F1 /* CharacterListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListCellView.swift; sourceTree = "<group>"; };
+		F7CC7B572B978CCA004186F1 /* ListOfCharactersTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCharactersTableViewDataSource.swift; sourceTree = "<group>"; };
+		F7CC7B5C2B979121004186F1 /* ListOfCharactersTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCharactersTableViewDelegate.swift; sourceTree = "<group>"; };
+		F7CC7B632B979210004186F1 /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
+		F7CC7B652B9792F0004186F1 /* CharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7CC7B5B2B979083004186F1 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +76,88 @@
 		F7CC7B352B977F84004186F1 /* ArchitectureIOS */ = {
 			isa = PBXGroup;
 			children = (
+				F7CC7B5F2B9791D9004186F1 /* CharacterDetail */,
+				F7CC7B5E2B97919F004186F1 /* ListOfCharacters */,
 				F7CC7B362B977F84004186F1 /* AppDelegate.swift */,
 				F7CC7B382B977F84004186F1 /* SceneDelegate.swift */,
-				F7CC7B3A2B977F84004186F1 /* ViewController.swift */,
-				F7CC7B3C2B977F84004186F1 /* Main.storyboard */,
 				F7CC7B3F2B977F86004186F1 /* Assets.xcassets */,
 				F7CC7B412B977F86004186F1 /* LaunchScreen.storyboard */,
 				F7CC7B442B977F86004186F1 /* Info.plist */,
 			);
 			path = ArchitectureIOS;
+			sourceTree = "<group>";
+		};
+		F7CC7B4A2B97807E004186F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7CC7B4D2B9780C3004186F1 /* APIClient.swift */,
+				F7CC7B4F2B978171004186F1 /* CharacterModelResponse.swift */,
+				F7CC7B512B97818B004186F1 /* CharacterModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F7CC7B4B2B978085004186F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7CC7B532B9782CA004186F1 /* CharactersListView.swift */,
+				F7CC7B552B9785CD004186F1 /* CharacterListCellView.swift */,
+				F7CC7B3C2B977F84004186F1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7CC7B4C2B97808A004186F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7CC7B3A2B977F84004186F1 /* CharactersListViewController.swift */,
+				F7CC7B572B978CCA004186F1 /* ListOfCharactersTableViewDataSource.swift */,
+				F7CC7B5C2B979121004186F1 /* ListOfCharactersTableViewDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F7CC7B5E2B97919F004186F1 /* ListOfCharacters */ = {
+			isa = PBXGroup;
+			children = (
+				F7CC7B4A2B97807E004186F1 /* Model */,
+				F7CC7B4B2B978085004186F1 /* View */,
+				F7CC7B4C2B97808A004186F1 /* Controller */,
+			);
+			path = ListOfCharacters;
+			sourceTree = "<group>";
+		};
+		F7CC7B5F2B9791D9004186F1 /* CharacterDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F7CC7B622B9791F7004186F1 /* Controller */,
+				F7CC7B612B9791F0004186F1 /* View */,
+				F7CC7B602B9791EB004186F1 /* Model */,
+			);
+			path = CharacterDetail;
+			sourceTree = "<group>";
+		};
+		F7CC7B602B9791EB004186F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F7CC7B612B9791F0004186F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7CC7B632B979210004186F1 /* CharacterDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7CC7B622B9791F7004186F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7CC7B652B9792F0004186F1 /* CharacterDetailViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +176,9 @@
 			dependencies = (
 			);
 			name = ArchitectureIOS;
+			packageProductDependencies = (
+				F7CC7B5A2B979083004186F1 /* Kingfisher */,
+			);
 			productName = ArchitectureIOS;
 			productReference = F7CC7B332B977F84004186F1 /* ArchitectureIOS.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +207,9 @@
 				Base,
 			);
 			mainGroup = F7CC7B2A2B977F84004186F1;
+			packageReferences = (
+				F7CC7B592B979083004186F1 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = F7CC7B342B977F84004186F1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +237,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7CC7B3B2B977F84004186F1 /* ViewController.swift in Sources */,
+				F7CC7B582B978CCA004186F1 /* ListOfCharactersTableViewDataSource.swift in Sources */,
+				F7CC7B662B9792F0004186F1 /* CharacterDetailViewController.swift in Sources */,
+				F7CC7B642B979210004186F1 /* CharacterDetailView.swift in Sources */,
+				F7CC7B502B978171004186F1 /* CharacterModelResponse.swift in Sources */,
+				F7CC7B3B2B977F84004186F1 /* CharactersListViewController.swift in Sources */,
+				F7CC7B562B9785CD004186F1 /* CharacterListCellView.swift in Sources */,
 				F7CC7B372B977F84004186F1 /* AppDelegate.swift in Sources */,
+				F7CC7B5D2B979121004186F1 /* ListOfCharactersTableViewDelegate.swift in Sources */,
+				F7CC7B522B97818B004186F1 /* CharacterModel.swift in Sources */,
+				F7CC7B542B9782CA004186F1 /* CharactersListView.swift in Sources */,
 				F7CC7B392B977F84004186F1 /* SceneDelegate.swift in Sources */,
+				F7CC7B4E2B9780C3004186F1 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +471,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F7CC7B592B979083004186F1 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F7CC7B5A2B979083004186F1 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7CC7B592B979083004186F1 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F7CC7B2B2B977F84004186F1 /* Project object */;
 }
